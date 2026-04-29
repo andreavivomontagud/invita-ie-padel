@@ -9,7 +9,7 @@ const gifStages = [
     "https://media1.tenor.com/m/uDugCXK4vI4AAAAC/chiikawa-hachiware.gif"  // 7 crying runaway
 ]
 
-const NoMessages = [
+const noMessages = [
     "NU",
     "Ești sigur? 🤔",
     "Hai te rog... 🥺",
