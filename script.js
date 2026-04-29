@@ -66,17 +66,15 @@ function toggleMusic() {
 }
 
 function handleYesClick() {
-    if (!runawayEnabled) {
-        // Tease her to try No first
-        const msg = yesTeasePokes[Math.min(yesTeasedCount, yesTeasePokes.length - 1)]
-        yesTeasedCount++
-        showTeaseMessage(msg)
-        return
-    }
-    document.body.innerHTML = `
-  <h1 style="color:#ff4da6; font-size:40px;">
-    Super! Ne vedem pe teren la ONYX 💙🎾
-  </h1>
+  if (!runawayEnabled) {
+    const msg = yesTeasePokes[Math.min(yesTeasedCount, yesTeasePokes.length - 1)]
+    yesTeasedCount++
+    showTeaseMessage(msg)
+    return
+  }
+
+  window.location.href = 'yes.html'
+}
 }
 
 function showTeaseMessage(msg) {
