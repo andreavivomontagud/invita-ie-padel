@@ -66,13 +66,6 @@ function toggleMusic() {
 }
 
 function handleYesClick() {
-  if (!runawayEnabled) {
-    const msg = yesTeasePokes[Math.min(yesTeasedCount, yesTeasePokes.length - 1)]
-    yesTeasedCount++
-    showTeaseMessage(msg)
-    return
-  }
-
   window.location.href = 'yes.html'
 }
 
