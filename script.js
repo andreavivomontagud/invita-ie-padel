@@ -73,7 +73,10 @@ function handleYesClick() {
         showTeaseMessage(msg)
         return
     }
-    window.location.href ='yes.html'
+    document.body.innerHTML = `
+  <h1 style="color:#ff4da6; font-size:40px;">
+    Super! Ne vedem pe teren la ONYX 💙🎾
+  </h1>
 }
 
 function showTeaseMessage(msg) {
