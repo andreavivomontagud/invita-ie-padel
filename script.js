@@ -35,8 +35,8 @@ let runawayEnabled = false
 let musicPlaying = true
 
 const catGif = document.getElementById('cat-gif')
-const DABtn = document.getElementById('DA-btn')
-const NUBtn = document.getElementById('NU-btn')
+const yesBtn = document.getElementById('yes-btn')
+const noBtn = document.getElementById('no-btn')
 const music = document.getElementById('bg-music')
 
 // Autoplay: audio starts muted (bypasses browser policy), unmute immediately
