@@ -204,3 +204,10 @@ h1 {
     width: 260px;
     height: 260px;
 }
+
+.logo {
+  width: 120px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
