@@ -75,7 +75,6 @@ function handleYesClick() {
 
   window.location.href = 'yes.html'
 }
-}
 
 function showTeaseMessage(msg) {
     let toast = document.getElementById('tease-toast')
