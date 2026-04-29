@@ -9,34 +9,34 @@ const gifStages = [
     "https://media1.tenor.com/m/uDugCXK4vI4AAAAC/chiikawa-hachiware.gif"  // 7 crying runaway
 ]
 
-const noMessages = [
-    "No",
-    "Are you positive? 🤔",
-    "Pookie please... 🥺",
-    "If you say no, I will be really sad...",
-    "I will be very sad... 😢",
-    "Please??? 💔",
-    "Don't do this to me...",
-    "Last chance! 😭",
-    "You can't catch me anyway 😜"
+const NUMessages = [
+    "NU",
+    "Ești sigur? 🤔",
+    "Hai te rog... 🥺",
+    "Dacă spui NU, o să fiu trist...",
+    "Chiar foarte trist... 🥺",
+    "Te rog?? 💔",
+    "Nu-mi face asta...",
+    "Ultima șansă! 😭",
+    "Oricum nu mă prinzi 😝"
 ]
 
-const yesTeasePokes = [
-    "try saying no first... I bet you want to know what happens 😏",
-    "go on, hit no... just once 👀",
-    "you're missing out 😈",
-    "click no, I dare you 😏"
+const DATeasePokes = [
+    "Încearcă să spui NU... dar nu cred 😏",
+    "Hai, apasă NU o dată 😂",
+    "Pierzi ceva bun 👀",
+    "Apasă NU dacă ai curaj 😈"
 ]
 
-let yesTeasedCount = 0
+let DATeasedCount = 0
 
 let noClickCount = 0
 let runawayEnabled = false
 let musicPlaying = true
 
 const catGif = document.getElementById('cat-gif')
-const yesBtn = document.getElementById('yes-btn')
-const noBtn = document.getElementById('no-btn')
+const DABtn = document.getElementById('DA-btn')
+const NUBtn = document.getElementById('NU-btn')
 const music = document.getElementById('bg-music')
 
 // Autoplay: audio starts muted (bypasses browser policy), unmute immediately
@@ -73,7 +73,7 @@ function handleYesClick() {
         showTeaseMessage(msg)
         return
     }
-    window.location.href = 'yes.html'
+    window.location.href = 'Super! Ne vedem pe teren la ONYX 💙🎾'
 }
 
 function showTeaseMessage(msg) {
