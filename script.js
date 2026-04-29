@@ -73,7 +73,7 @@ function handleYesClick() {
         showTeaseMessage(msg)
         return
     }
-    window.location.href = 'Super! Ne vedem pe teren la ONYX 💙🎾'
+    window.location.href ='yes.html'
 }
 
 function showTeaseMessage(msg) {
