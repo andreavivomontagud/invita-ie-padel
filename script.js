@@ -9,7 +9,7 @@ const gifStages = [
     "https://media1.tenor.com/m/uDugCXK4vI4AAAAC/chiikawa-hachiware.gif"  // 7 crying runaway
 ]
 
-const noMessages = [
+const NUMessages = [
     "NU",
     "Ești sigur? 🤔",
     "Hai te rog... 🥺",
@@ -21,7 +21,7 @@ const noMessages = [
     "Oricum nu mă prinzi 😝"
 ]
 
-const yesTeasePokes = [
+const DATeasePokes = [
     "Încearcă să spui NU... dar nu cred 😏",
     "Hai, apasă NU o dată 😂",
     "Pierzi ceva bun 👀",
